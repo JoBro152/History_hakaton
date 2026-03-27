@@ -15,7 +15,7 @@
 
         body {
             font-family: 'Lato', sans-serif;
-            font-size: 18px;
+            font-size: 20px;          /* увеличено с 18px */
             background: #fbfaf8;
             overflow-x: hidden;
             color: #1e1a16;
@@ -178,7 +178,7 @@
             z-index: 25;
         }
 
-        /* ========= ОСТАЛЬНЫЕ СТИЛИ ========= */
+        /* ========= ОСТАЛЬНЫЕ СТИЛИ (с увеличенными шрифтами) ========= */
         .hero-dynamic {
             position: relative;
             min-height: 68vh;
@@ -221,11 +221,11 @@
         .academic-badge {
             background: rgba(139, 44, 45, 0.9);
             display: inline-block;
-            padding: 0.5rem 1.8rem;
+            padding: 0.6rem 2rem;
             border-radius: 60px;
-            margin-bottom: 1.4rem;
+            margin-bottom: 1.6rem;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 1rem;
             color: white;
             backdrop-filter: blur(4px);
             letter-spacing: 0.3px;
@@ -233,14 +233,14 @@
 
         .hero-content h1 {
             font-weight: 800;
-            font-size: 3.8rem;
-            margin-bottom: 1.2rem;
+            font-size: 4rem;         /* увеличено */
+            margin-bottom: 1.4rem;
             color: #2b221c;
             line-height: 1.2;
         }
 
         .hero-era-text {
-            font-size: 1.4rem;
+            font-size: 1.6rem;        /* увеличено */
             font-weight: 600;
             border-left: 4px solid var(--ranepa-gold);
             padding-left: 1.3rem;
@@ -248,14 +248,14 @@
             background: rgba(255, 255, 245, 0.7);
             backdrop-filter: blur(4px);
             border-radius: 60px;
-            padding: 0.6rem 1.8rem;
+            padding: 0.7rem 2rem;
             color: #543e28;
         }
 
         .hero-content p {
             margin-top: 1.5rem;
             font-weight: 400;
-            font-size: 1.05rem;
+            font-size: 1.1rem;
             color: #3f2e1f;
         }
 
@@ -272,13 +272,13 @@
         .tab-btn {
             background: #ffffff;
             border: none;
-            padding: 0.8rem 2rem;
+            padding: 0.9rem 2.2rem;
             border-radius: 52px;
             font-weight: 700;
             color: #3b2c1f;
             cursor: pointer;
             transition: var(--transition-smooth);
-            font-size: 1rem;
+            font-size: 1.05rem;
             display: inline-flex;
             align-items: center;
             gap: 12px;
@@ -287,7 +287,7 @@
         }
 
         .tab-btn i {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             color: var(--ranepa-wine);
             transition: 0.2s;
         }
@@ -316,21 +316,21 @@
             display: flex;
             align-items: baseline;
             gap: 14px;
-            margin-bottom: 2.2rem;
+            margin-bottom: 2.4rem;
             flex-wrap: wrap;
             justify-content: space-between;
             border-bottom: 2px solid var(--ranepa-gold-soft);
-            padding-bottom: 0.8rem;
+            padding-bottom: 1rem;
         }
 
         .panel-header-left {
             display: flex;
             align-items: center;
-            gap: 16px;
+            gap: 18px;
         }
 
         .panel-header-left i {
-            font-size: 2.2rem;
+            font-size: 2.4rem;
             color: var(--ranepa-wine);
             background: rgba(139, 44, 45, 0.1);
             padding: 12px;
@@ -339,7 +339,7 @@
 
         .panel-header-left h2 {
             font-weight: 800;
-            font-size: 2rem;
+            font-size: 2.2rem;      /* увеличено */
             color: #271f19;
             margin: 0;
             letter-spacing: -0.3px;
@@ -347,7 +347,7 @@
 
         .cards-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
             gap: 2.2rem;
             transition: opacity 0.3s ease, transform 0.3s ease;
         }
@@ -397,8 +397,8 @@
         }
 
         .history-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 0.8rem;
+            font-size: 1.6rem;        /* увеличено */
+            margin-bottom: 0.9rem;
             color: var(--ranepa-wine);
             font-weight: 800;
             display: flex;
@@ -409,7 +409,7 @@
         .history-card p {
             line-height: 1.5;
             color: #4f3e2e;
-            font-size: 1rem;
+            font-size: 1.05rem;
             margin-bottom: 1.2rem;
             flex: 1;
         }
@@ -464,10 +464,10 @@
 
         .detail-content {
             background: white;
-            max-width: 580px;
+            max-width: 620px;
             width: 90%;
             border-radius: 36px;
-            padding: 32px;
+            padding: 36px;
             border-top: 6px solid var(--ranepa-gold);
             position: relative;
             box-shadow: 0 30px 40px rgba(0, 0, 0, 0.2);
@@ -475,9 +475,9 @@
 
         .close-detail {
             position: absolute;
-            right: 24px;
-            top: 22px;
-            font-size: 28px;
+            right: 28px;
+            top: 24px;
+            font-size: 32px;
             cursor: pointer;
             color: #eaceb1;
             transition: 0.2s;
@@ -488,25 +488,25 @@
         }
 
         .detail-content h3 {
-            font-size: 2rem;
+            font-size: 2.2rem;
             font-weight: 800;
             color: var(--ranepa-wine);
-            margin-bottom: 16px;
+            margin-bottom: 18px;
         }
 
         .detail-content p {
-            font-size: 1.05rem;
+            font-size: 1.1rem;
             line-height: 1.5;
             color: #2c241e;
         }
 
         #detailExtra {
             background: #fef6ef;
-            padding: 16px;
+            padding: 18px;
             border-radius: 28px;
-            margin-top: 22px;
+            margin-top: 24px;
             color: #a7692f;
-            font-size: 0.95rem;
+            font-size: 1rem;
         }
 
         .image-modal img {
@@ -525,6 +525,7 @@
             border-top: 1px solid #e2d5ca;
             margin-top: 2.5rem;
             margin-left: 0;
+            font-size: 0.95rem;
         }
 
         .footer-logo {
@@ -555,7 +556,7 @@
             box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
             color: white;
             border: none;
-            font-size: 1.3rem;
+            font-size: 1.4rem;
         }
 
         .scroll-top:hover {
@@ -584,13 +585,22 @@
                 margin-top: -12px;
             }
             .hero-content h1 {
-                font-size: 2.2rem;
+                font-size: 2.6rem;
+            }
+            .hero-era-text {
+                font-size: 1.3rem;
             }
             .vertical-markers-wrapper {
                 left: -24px;
             }
             .content-area {
                 padding: 0 1rem;
+            }
+            .panel-header-left h2 {
+                font-size: 1.8rem;
+            }
+            .history-card h3 {
+                font-size: 1.4rem;
             }
         }
         @media (max-width: 650px) {
@@ -614,10 +624,19 @@
                 margin-top: -11px;
             }
             .hero-content h1 {
-                font-size: 1.8rem;
+                font-size: 2rem;
+            }
+            .hero-era-text {
+                font-size: 1.1rem;
             }
             .vertical-markers-wrapper {
                 left: -20px;
+            }
+            .panel-header-left h2 {
+                font-size: 1.5rem;
+            }
+            .history-card h3 {
+                font-size: 1.3rem;
             }
         }
     </style>
@@ -663,7 +682,7 @@
                 <i class="fas fa-envelope"></i> college@ranepa-nn.ru | <i class="fas fa-globe"></i> www.ranepa-nn.ru<br>
                 Нижний Новгород, проспект Гагарина, 46 | Приемная комиссия: +7 (831) 433-02-22
             </div>
-            <p style="margin-top: 22px; font-size: 0.8rem;">© 2026 Президентская академия. Все права защищены.</p>
+            <p style="margin-top: 22px; font-size: 0.85rem;">© 2026 Президентская академия. Все права защищены.</p>
         </footer>
     </div>
 
